@@ -1,7 +1,9 @@
 package main
 
-import "fmt"
-
 func main() {
-	fmt.Println("Hello, Gophers!")
+	var i int = 32
+
+	var f float32 = float32(i)
+
+	println(f)
 }
