@@ -1,0 +1,3 @@
+Add the experimental "slices" package:
+
+go get golang.org/x/exp/slices
