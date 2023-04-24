@@ -1,9 +1,7 @@
 package main
 
 func main() {
-	var i int = 32
+	a, b := 10, 5
+	c := a + b
 
-	var f float32 = float32(i)
-
-	println(f)
 }
