@@ -1,6 +1,8 @@
 package main
 
 func main() {
+
+	// Basics
 	const a = 42
 	var i int = a // 42
 	const b float32 = 3
@@ -9,6 +11,7 @@ func main() {
 
 	println(i, f32, f64)
 
+	// Expressions
 	const c = iota
 	println(c)
 
@@ -21,4 +24,13 @@ func main() {
 	)
 
 	println(d, e, f, g, h)
+
+	// Effective
+	type ByteSize float64
+
+	const (
+		_           = iota
+		KB ByteSize = 1 << (10 * iota)
+	)
+	println(KB)
 }
