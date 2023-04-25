@@ -18,7 +18,7 @@ loop:
 		fmt.Println("Please select an option")
 		fmt.Println("1) Print menu")
 		fmt.Println("2) Add item")
-		fmt.Println("Q) quit")
+		fmt.Println("Q) Quit")
 		choice, _ := in.ReadString('\n')
 
 		switch strings.TrimSpace(choice) {
