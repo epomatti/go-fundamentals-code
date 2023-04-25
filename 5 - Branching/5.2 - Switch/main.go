@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 
-	switch i := 999; i {
+	switch i := 5; i {
 	case 1:
 		fmt.Println("firstcase")
 	case 2 + 3, 2*i + 3:
