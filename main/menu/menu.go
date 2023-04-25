@@ -14,12 +14,14 @@ type menuItem struct {
 
 var in = bufio.NewReader(os.Stdin)
 
+// Adds an item to the menu
 func AddItem() {
 	fmt.Println("Please enter the name of the new item")
 	name, _ := in.ReadString('\n')
 	menu = append(menu, menuItem{name: name, prices: make(map[string]float64)})
 }
 
+// Print the menu for user interaction
 func Print() {
 	for _, item := range menu {
 		fmt.Println(item.name)
