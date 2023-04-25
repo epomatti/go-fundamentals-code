@@ -31,5 +31,6 @@ use (
 	"./5 - Branching/5.5 - Panic and Recover"
 	"./5 - Branching/5.6 - Goto"
 	"./6 - Organizing programs/6.1 - Functions"
+	"./7 - Object Orientation/7.1 - Method Receivers"
 	./main
 )
