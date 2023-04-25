@@ -29,4 +29,5 @@ use (
 	"./5 - Branching/5.3 - Logical Switch"
 	"./5 - Branching/5.4 - Deferred Function"
 	"./5 - Branching/5.5 - Panic and Recover"
+	"./5 - Branching/5.6 - Goto"
 )
