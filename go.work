@@ -23,6 +23,7 @@ use (
 	"./7 - Object Orientation/7.1 - Method Receivers"
 	"./7 - Object Orientation/7.2 - Interfaces"
 	"./7 - Object Orientation/7.3 - Generic Functions"
-	"./7 - Object Orientation/7.4 - Generics Comp Constr"
+	"./7 - Object Orientation/7.4 - Generics Comparable Constraint"
+	"./7 - Object Orientation/7.5 - Generics Custom Constraint"
 	./main
 )
