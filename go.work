@@ -25,5 +25,6 @@ use (
 	"./7 - Object Orientation/7.3 - Generic Functions"
 	"./7 - Object Orientation/7.4 - Generics Comparable Constraint"
 	"./7 - Object Orientation/7.5 - Generics Custom Constraint"
+	"./8 - Error Management/8.1 - Error Objects"
 	./main
 )
