@@ -13,8 +13,8 @@ func main() {
 	defer fmt.Println("defer 2")
 
 	db, _ := sql.Open("driverName", "connection string")
-	defer db.Close()
+	defer db.Close() // wil close last
 
 	rows, _ := db.Query("some sql query here")
-	defer rows.Close()
+	defer rows.Close() // will close first
 }
