@@ -1,3 +1,3 @@
-module demo
+module maps
 
 go 1.20

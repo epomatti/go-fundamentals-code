@@ -1,3 +1,3 @@
-module demo
+module constants
 
 go 1.20
