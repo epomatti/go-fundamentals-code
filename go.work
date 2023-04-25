@@ -1,28 +1,17 @@
 go 1.20
 
-use "./1 - Variables & Data Types/1.1 - Simple Types & Conversions"
-
-use "./1 - Variables & Data Types/1.2 - Arithmetic & Comparison"
-
-use "./1 - Variables & Data Types/1.3 - Constants"
-
-use "./1 - Variables & Data Types/1.4 - Pointers"
-
-use "./2 - Create & Debug/2.1 - CLI"
-
-use "./2 - Create & Debug/2.2 - Web Service"
-
-use "./3 - Aggregates or Collections/3.1 - Arrays"
-
-use "./3 - Aggregates or Collections/3.2 - Slices"
-
-use "./3 - Aggregates or Collections/3.3 - Maps"
-
-use "./3 - Aggregates or Collections/3.4 - Structs"
-
-use "./4 - Looping/4.1 - Looping"
-
 use (
+	"./1 - Variables & Data Types/1.1 - Simple Types & Conversions"
+	"./1 - Variables & Data Types/1.2 - Arithmetic & Comparison"
+	"./1 - Variables & Data Types/1.3 - Constants"
+	"./1 - Variables & Data Types/1.4 - Pointers"
+	"./2 - Create & Debug/2.1 - CLI"
+	"./2 - Create & Debug/2.2 - Web Service"
+	"./3 - Aggregates or Collections/3.1 - Arrays"
+	"./3 - Aggregates or Collections/3.2 - Slices"
+	"./3 - Aggregates or Collections/3.3 - Maps"
+	"./3 - Aggregates or Collections/3.4 - Structs"
+	"./4 - Looping/4.1 - Looping"
 	"./4 - Looping/4.2 - Loop collections"
 	"./5 - Branching/5.1 - If"
 	"./5 - Branching/5.2 - Switch"
@@ -33,5 +22,6 @@ use (
 	"./6 - Organizing programs/6.1 - Functions"
 	"./7 - Object Orientation/7.1 - Method Receivers"
 	"./7 - Object Orientation/7.2 - Interfaces"
+	"./7 - Object Orientation/7.3 - Generic Functions"
 	./main
 )
