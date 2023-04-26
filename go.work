@@ -31,5 +31,6 @@ use (
 	"./9 - Concurrent Programming/9.1 - Goroutines and WaitGroups"
 	"./9 - Concurrent Programming/9.2 - Channels"
 	"./9 - Concurrent Programming/9.3 - Select Statements"
+	"./9 - Concurrent Programming/9.4 - Looping"
 	./main
 )
