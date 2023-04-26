@@ -28,5 +28,6 @@ use (
 	"./8 - Error Management/8.1 - Error Objects"
 	"./8 - Error Management/8.2 - Error Handling"
 	"./8 - Error Management/8.3 - Converting Panics to Errors"
+	"./9 - Concurrent Programming/9.1 - Goroutines and WaitGroups"
 	./main
 )
