@@ -1,2 +1,23 @@
 My Golang practice code from
 Pluralsight Go Fundamentals course.
+
+1 - Variables and Simple Data Types
+2 - Creating and Debugging Programs
+3 - Aggregate Data Types
+4 - Looping
+5 - Branching
+6 - Organizing Programs
+7 - Object Orientation and Polymorphism
+8 - Error Management
+9 - Concurrent Programming
+10 - Testing
+
+
+Commands to run the examples:
+
+  go mod init <name>
+  go work use .
+  go run .
+
+  go test .
+  go test ./...
