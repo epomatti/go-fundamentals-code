@@ -39,6 +39,7 @@ func divide1(l, r int) (int, error) {
 	return l / r, nil
 }
 
+// Using named variables
 func divide2(l, r int) (result int, err error) {
 	defer func() {
 		if msg := recover(); msg != nil {
