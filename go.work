@@ -30,5 +30,6 @@ use (
 	"./8 - Error Management/8.3 - Converting Panics to Errors"
 	"./9 - Concurrent Programming/9.1 - Goroutines and WaitGroups"
 	"./9 - Concurrent Programming/9.2 - Channels"
+	"./9 - Concurrent Programming/9.3 - Select Statements"
 	./main
 )
